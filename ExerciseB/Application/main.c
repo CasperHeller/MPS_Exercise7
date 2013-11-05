@@ -52,7 +52,7 @@ int main()
 			if (ioctl(fd, SYSLED_IOC_TIMER_STOP) == -1)
                 printf("Failed to send ioctl call, ERROR: %s\n", strerror(errno));
 			else
-				printf("Timer started.\n");
+				printf("Timer stopped.\n");
 		}
 		// Setting frequency:
 		else if ( !strcmp(inBuffer, "timeout") )
