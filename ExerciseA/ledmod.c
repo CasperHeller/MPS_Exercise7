@@ -14,7 +14,7 @@
 
 MODULE_LICENSE("Dual BSD/GPL");
 MODULE_DESCRIPTION("Driver for I/O with SYS_LED_4");
-MODULE_AUTHOR("TeamMPS");
+MODULE_AUTHOR("DETMPS");
 
 int sysled_open(struct inode *inode, struct file *filep);
 int sysled_release(struct inode *inode, struct file *filep);
